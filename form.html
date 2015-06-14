@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ankieta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form method="post">
+<div class="container" id="cnt1">
+    <div class="col-md-3">
+    </div>
+
+    <div class="col-md-6" id="panel1">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <span class="fa fa-question-circle"></span>Survey</h3>
+            </div>
+            <div class="panel-body two-col">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                        <h4>Gender:</h4>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="gender" value="Male">
+                                    Male
+                                </label>
+                            </div>
+                             <div class="radio">
+                                <label>
+                                    <input type="radio" name="gender" value="Female">
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                        <h4>Age:</h4>
+                             <div class="radio">
+      <label><input type="radio" name="age" value="18-25">18-25</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="age" value="26-30">26-30</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="age" value="31-40">31-40</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="age" value="41-50">41-50</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="age" value="51+">51+</label>
+    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                     
+                        <div class="well well-sm">
+                        <h4>Favourite beer</h4>
+                            <div class="radio">
+      <label><input type="radio" name="fav_beer" value="IPA">IPA</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="fav_beer" value="APA">APA</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="fav_beer" value="STOUT">STOUT</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="fav_beer" value="WEIZEN">WEIZEN</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="fav_beer" value="WITBIER">WITBIER</label>
+    </div>
+     <div class="radio">
+      <label><input type="radio" name="fav_beer" value="I don't drink beer">I don't drink beer</label>
+    </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
+                     
+                        <div class="well well-sm">
+                        <h4>How often:</h4>
+                            <div class="radio">
+      <label><input type="radio" name="how_many" value="Every day">Every day</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="how_many" value="2-3 a week">2-3 a week</label>
+    </div>
+     <div class="radio">
+      <label><input type="radio" name="how_many" value="2-3 a month">2-3 a month</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="how_many" value="Occasionaly">occasionaly</label>
+    </div>
+     <div class="radio">
+      <label><input type="radio" name="how_many" value="Never">Never</label>
+    </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                     
+                        <div class="well well-sm">
+                        <h4>Where:</h4>
+                             <div class="radio">
+      <label><input type="radio" name="where" value="Pub">Pub</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="where" value="Home">Home</label>
+    </div>
+     <div class="radio">
+      <label><input type="radio" name="where" value="BBQ">BBQ</label>
+    </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                     
+                        <div class="well well-sm">
+                        <h4>With who:</h4>
+                        <div class="radio">
+      <label><input type="radio" name="with_who" value="Friends">Friends</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="with_who" value="Family">Family</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="with_who" value="Partner">Partner</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="with_who" value="Alone">Alone</label>
+    </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <button type="submit" class="btn btn-success btn-sm btn-block">
+                            <span class="fa fa-send"></span>Send</button>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="/api" class="btn btn-primary btn-sm btn-block" role="button">View Results</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+<style>
+#cnt1 {
+    background-color: rgba(215, 212, 212, 0.88);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#panel1 {
+    padding:20px;
+}
+
+.panel-body:not(.two-col) {
+    padding: 0px;
+}
+
+.panel-body .radio, .panel-body .radio {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.panel-body .list-group {
+    margin-bottom: 0;
+}
+
+.margin-bottom-none {
+    margin-bottom: 0;
+}
+</style>
+</body>
+</html>
